@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  node:
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/home/node/app
+      - /home/node/app/node_modules

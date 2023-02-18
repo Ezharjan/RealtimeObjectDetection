@@ -1,0 +1,4 @@
+del /stati/js/index.js
+npm run build
+npm run start
+pause

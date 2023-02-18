@@ -1,0 +1,44 @@
+<html>
+
+<body>
+  <style>
+    body,
+    .center {
+      margin: 0;
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    video,
+    canvas {
+      width: 80%;
+      max-width: 1000px;
+    }
+
+    #loading,
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #loading {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+  <div class="center">
+    <video height="600" id="video"></video>
+  </div>
+  <div id="loading"></div>
+  <script src="/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+*.vscode
+.vscode/
+.idea
+.vs
+[Tt]emp/
+[Tt]emp
+built
+
+node_modules
+.package-lock.json
